@@ -15,7 +15,7 @@ safetailB xs
 
 safetailC ∷ [a] → [a]
 safetailC [] = []
-safetailC (x:xs) = tail (x:xs)
+safetailC (_:xs) = xs
 
 -- "Give three possible definitions for the logical or operator (||) using pattern matching"
 
